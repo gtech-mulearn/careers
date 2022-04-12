@@ -349,7 +349,7 @@ button:focus {
 
 .apply {
   border: none;
-  padding: 0.75rem 3rem;
+  padding: 0.75rem 5rem;
   font-size: 1.1rem;
   background-color: white;
   border-radius: 3px;
@@ -358,8 +358,54 @@ button:focus {
   margin-top: 2vh;
 }
 
-.apply:hover{
+.apply:hover {
   background-color: #76b6ee;
   color: white;
   transition: 0.25s ease-in-out;
+}
+
+/* Third Section */
+
+.third-section {
+  margin: 15vw 2rem;
+  text-align: center;
+}
+
+.tsheader {
+  font-size: 1.1rem;
+  color: #404040;
+}
+
+.tsquote {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #f6832a;
+}
+
+.tsquote span {
+  font-size: 2rem;
+}
+
+@media only screen and (min-width: 1000px) {
+  .third-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5vw 6rem;
+  }
+  .tsquote {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #f6832a;
+  }
+
+  .tsheader {
+    font-size: 1.2rem;
+    color: #404040;
+  }
+
+  .tsquote {
+    width: 32vw;
+  }
 }
