@@ -253,3 +253,95 @@ button:focus {
     width: 40vw;
   }
 }
+
+/* Second Sections */
+
+.second-section {
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  color: white;
+  background-color: #4797dd;
+}
+
+.ssheader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.ssheader img {
+  width: 4rem;
+}
+
+.ssheader p {
+  font-size: 1.25rem;
+  margin-left: 5px;
+  margin-top: 5px;
+  font-weight: 500;
+  font-family: "Outfit", sans-serif;
+}
+
+.sstagline {
+  margin-top: 2vh;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.requirements {
+  margin-top: 2vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.reqlogo {
+  display: table;
+  margin: 0 auto;
+  font-size: 3rem;
+}
+
+.req p {
+  font-size: 1.1rem;
+}
+
+.req {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 0.5rem;
+}
+
+@media only screen and (min-width: 1000px) {
+  .ssheader img {
+    width: 5rem;
+  }
+
+  .ssheader p {
+    font-size: 1.5rem;
+  }
+
+  .sstagline {
+    margin-top: 2vh;
+    width: 70vw;
+    font-size: 1.1rem;
+  }
+
+  .requirements {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 45vw;
+    align-items: center;
+  }
+
+  .req p {
+    font-size: 1.1rem;
+    margin-top: 1vh;
+  }
+}
