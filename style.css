@@ -34,7 +34,7 @@ main {
 }
 
 footer {
-  margin-top: 10vh;
+  /* margin-top: 10vh; */
   padding: 4rem 2rem;
   background-color: #404040;
 }
@@ -265,6 +265,7 @@ button:focus {
   padding: 4rem 2rem;
   color: white;
   background-color: #4797dd;
+  /* border-radius: 15px 15px 0 0; */
 }
 
 .ssheader {
