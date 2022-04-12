@@ -263,6 +263,9 @@ button:focus {
   align-items: center;
   justify-content: center;
   padding: 4rem 2rem;
+
+  margin: 2rem;
+  border-radius: 10px;
   color: white;
   background-color: #4797dd;
   /* border-radius: 15px 15px 0 0; */
@@ -280,11 +283,15 @@ button:focus {
 }
 
 .ssheader p {
-  font-size: 1.25rem;
+  font-size: 1.95rem;
   margin-left: 5px;
   margin-top: 5px;
   font-weight: 500;
   font-family: "Outfit", sans-serif;
+}
+
+.ssheader span{
+  font-size: 1.25rem;
 }
 
 .sstagline {
@@ -320,12 +327,16 @@ button:focus {
 }
 
 @media only screen and (min-width: 1000px) {
+  .second-section {
+    margin: 6rem;
+  }
+
   .ssheader img {
     width: 5rem;
   }
 
   .ssheader p {
-    font-size: 1.5rem;
+    font-size: 1.95rem;
   }
 
   .sstagline {
