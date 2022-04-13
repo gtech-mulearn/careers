@@ -73,6 +73,11 @@ footer a {
   background-color: #404040;
 }
 
+.reqlogo:hover {
+  background-color: #4797dd;
+  color: white;
+}
+
 footer hr {
   color: white;
   margin: 2rem 0rem;
@@ -200,6 +205,7 @@ button:focus {
   .nav-barbtn {
     padding-bottom: 0vh;
   }
+  
 }
 
 .first-section {
@@ -290,7 +296,7 @@ button:focus {
   font-family: "Outfit", sans-serif;
 }
 
-.ssheader span{
+.ssheader span {
   font-size: 1.25rem;
 }
 
