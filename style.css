@@ -382,6 +382,10 @@ button:focus {
   transition: 0.25s ease-in-out;
 }
 
+.alokin:hover {
+  background-color: #5370ac;
+}
+
 /* Third Section */
 
 .third-section {
