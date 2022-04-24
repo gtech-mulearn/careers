@@ -78,6 +78,11 @@ footer a {
   color: white;
 }
 
+.reqlogo1:hover {
+  background-color: #3c5b9b;
+  color: white;
+}
+
 footer hr {
   color: white;
   margin: 2rem 0rem;
@@ -205,7 +210,6 @@ button:focus {
   .nav-barbtn {
     padding-bottom: 0vh;
   }
-  
 }
 
 .first-section {
