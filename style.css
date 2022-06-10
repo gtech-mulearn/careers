@@ -15,6 +15,10 @@ main {
   width: 6rem;
 }
 
+.softlogo {
+  width: 4.75rem;
+}
+
 .nav-barbtn button {
   border: 2.5px solid #5865f2;
   padding: 0.65rem 0.96rem;
@@ -34,7 +38,7 @@ main {
 }
 
 footer {
-  /* margin-top: 10vh; */
+  margin-top: 10vh;
   padding: 4rem 2rem;
   background-color: #404040;
 }
@@ -71,16 +75,6 @@ footer a {
 .iconify:hover {
   color: #f6832a;
   background-color: #404040;
-}
-
-.reqlogo:hover {
-  background-color: #4797dd;
-  color: white;
-}
-
-.reqlogo1:hover {
-  background-color: #3c5b9b;
-  color: white;
 }
 
 footer hr {
@@ -212,226 +206,250 @@ button:focus {
   }
 }
 
+/* First Section */
+
 .first-section {
-  margin: 2rem;
+  padding: 2rem;
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
+  justify-content: center;
   align-items: center;
-  color: #404040;
 }
 
-.fsheader {
-  font-size: 3rem;
-  margin-bottom: 1vh;
-  font-size: 600;
-  font-family: "Outfit", sans-serif;
+.fsheading {
+  font-size: 3.75rem;
+  line-height: 3.25rem;
+  font-family: "Outfit";
+  font-weight: 600;
 }
 
-.fsheader span {
-  font-weight: 700;
+.fstexts {
+  text-align: center;
 }
 
-.fstagline {
-  font-size: 0.96rem;
+.fsillustration {
+  width: 40vh;
 }
 
-.image {
-  margin-top: 5vh;
-  height: 35vh;
-}
-
-@media only screen and (min-width: 1000px) {
-  .first-section {
-    margin: 6rem;
-    flex-direction: row;
-    justify-content: space-between;
+@media only screen and (min-width: 800px) {
+  .fsillustration {
+    width: 45vh;
   }
 
-  .fsheader {
-    font-size: 4.5rem;
+  .fsheading {
+    font-size: 5.75rem;
+    line-height: 5.25rem;
   }
 
   .fstagline {
-    font-size: 1.2rem;
-    width: 85%;
-  }
-
-  .image {
-    height: 20vw;
+    font-size: 1.15rem;
   }
 
   .fstexts {
-    width: 40vw;
+    width: 40%;
   }
 }
 
-/* Second Sections */
+/* Second Section  */
 
 .second-section {
-  margin-top: 10vh;
+  padding: 2rem;
+}
+
+.ssheading {
+  font-size: 1.45rem;
+  font-family: "Outfit";
+  font-weight: 600;
+  margin-bottom: 2.5rem;
+}
+
+.opportunity {
+  margin-top: 3vh;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.op-header {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 4rem 2rem;
-
-  margin: 2rem;
-  border-radius: 10px;
-  color: white;
-  background-color: #4797dd;
-  /* border-radius: 15px 15px 0 0; */
 }
 
-.ssheader {
+.op-texts {
+  margin-left: 1rem;
+}
+
+.op-header img {
+  height: 5rem;
+}
+
+.hirename {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.hiredes {
+  margin-top: -1rem;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #747272;
+}
+
+.point-container {
   display: flex;
-  flex-direction: row;
   align-items: center;
-  justify-content: center;
 }
 
-.ssheader img {
-  width: 4rem;
-}
-
-.ssheader p {
-  font-size: 1.95rem;
-  margin-left: 5px;
-  margin-top: 5px;
+.pointtext {
+  color: #404040;
   font-weight: 500;
-  font-family: "Outfit", sans-serif;
+  margin-top: 1vh;
 }
 
-.ssheader span {
-  font-size: 1.25rem;
-}
-
-.sstagline {
-  margin-top: 2vh;
-  font-size: 0.9rem;
-  text-align: center;
-}
-
-.requirements {
-  margin-top: 2vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.reqlogo {
-  display: table;
-  margin: 0 auto;
+.point-container svg {
+  color: #395a9c;
   font-size: 3rem;
+  margin: 0rem 0.5rem;
 }
 
-.req p {
-  font-size: 1.1rem;
-}
-
-.req {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-  margin: 0.5rem;
-}
-
-@media only screen and (min-width: 1000px) {
-  .second-section {
-    margin: 6rem;
-  }
-
-  .ssheader img {
-    width: 5rem;
-  }
-
-  .ssheader p {
-    font-size: 1.95rem;
-  }
-
-  .sstagline {
-    margin-top: 2vh;
-    width: 70vw;
-    font-size: 1.1rem;
-  }
-
-  .requirements {
-    flex-direction: column;
-    justify-content: space-between;
-    width: 70vw;
-    align-items: center;
-  }
-
-  .req p {
-    font-size: 1.1rem;
-    margin-top: 1vh;
-  }
+.knowmore {
+  background-color: #395a9c;
+  color: white;
+  border: none;
+  padding: 0.5rem 1.25rem;
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+  border-radius: 5px;
 }
 
 .apply {
-  border: none;
-  padding: 0.75rem 5rem;
-  font-size: 1.1rem;
+  color: #395a9c;
   background-color: white;
-  border-radius: 3px;
-  color: #4797dd;
-  font-weight: 600;
-  margin-top: 2vh;
-}
-
-.apply:hover {
-  background-color: #76b6ee;
-  color: white;
-  transition: 0.25s ease-in-out;
-}
-
-.alokin:hover {
-  background-color: #5370ac;
-}
-
-/* Third Section */
-
-.third-section {
-  margin: 15vw 2rem;
-  text-align: center;
-}
-
-.tsheader {
-  font-size: 1.1rem;
-  color: #404040;
-}
-
-.tsquote {
-  font-size: 1.75rem;
-  font-weight: 600;
-  color: #f6832a;
-}
-
-.tsquote span {
-  font-size: 2rem;
+  border: 2px solid #395a9c;
+  padding: 0.4rem 1rem;
+  border-radius: 5px;
+  margin-left: 0.45rem;
 }
 
 @media only screen and (min-width: 1000px) {
-  .third-section {
+  .opportunities {
+    display: grid;
+    grid-template-columns: 35% 35%;
+    column-gap: 2rem;
+  }
+
+  .opportunity {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    margin: 5vw 6rem;
-  }
-  .tsquote {
-    font-size: 3rem;
-    font-weight: 600;
-    color: #f6832a;
+    align-items: left;
   }
 
-  .tsheader {
-    font-size: 1.2rem;
-    color: #404040;
+  .point-container svg {
+    color: #395a9c;
+    font-size: 2.5rem;
+    margin: 0rem 0.5rem;
   }
 
-  .tsquote {
-    width: 32vw;
+  .second-section {
+    padding: 6rem;
   }
+
+  .ssheading {
+    font-size: 1.95rem;
+  }
+}
+
+/* The Modal (background) */
+.modal,
+.modal1 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #395a9c;
+}
+
+.requirements svg {
+  font-size: 2.75rem;
+  color: #395a9c;
+  margin-bottom: 0.25rem;
+}
+
+.reqtext {
+  text-align: center;
+}
+
+.reqpoint {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.requirements {
+  margin-top: 3vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (min-width: 1000px) {
+  .reqtext {
+    font-size: 1.05rem;
+    width: 75%;
+  }
+
+  .requirements {
+    flex-direction: row;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.primary {
+  display: block;
+  margin: auto;
+  text-align: center;
+  background-color: #395a9c;
+  color: #ffff;
 }
