@@ -357,7 +357,7 @@ button:focus {
   }
 
   .requirements {
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     width: 70vw;
     align-items: center;
