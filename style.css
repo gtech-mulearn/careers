@@ -19,6 +19,11 @@ main {
   width: 4.75rem;
 }
 
+.sunlogo {
+  height: 0.15rem;
+  width: 6rem;
+}
+
 .nav-barbtn button {
   border: 2.5px solid #5865f2;
   padding: 0.65rem 0.96rem;
